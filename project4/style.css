@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+    border : border-box;
+}
+
+/*Header */
+
+.navbar{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(254, 254, 27);
+}
+
+.tittle{
+    margin-left: 80px;
+    font-size: 16px;
+    color:rgb(254, 254, 27);
+}
+
+.nav-items{
+    display:flex;
+    margin-right: 40px;
+    color:white;
+    font-size: 16px;
+    align-items:center;
+}
+
+.home a,.about a,.skills a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.home a:hover,.about a:hover,.skills a:hover{
+    color: rgb(254, 254, 27);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.contact{
+    background-color: rgb(254, 254, 27);
+    padding:8px;
+    box-shadow: 4px 4px 0px  1px rgb(106, 106, 106);
+    transition-duration:0.2s;
+}
+
+.contact a{
+    color: black;
+    text-decoration: none;
+}
+
+.contact:hover{
+    box-shadow:none;
+}
+
+/* Hero Section */
+
+.Hero{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height:625px;
+}
+
+.welcome{
+    color:white;
+    padding: 45px;
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+}
+
+.description{
+    display:flex;
+    justify-content: space-between;
+    height :400px;
+}
+
+.hero-img{
+    width:1px;
+    margin-left:100px;
+}
+
+.info{
+    height : 400px;
+}
+
+.info p{
+    margin-right: 47px;
+    text-align: right;
+    height: 400px;
+    transition: transform 0.3s ease;
+    font-size: medium;
+    width:300px;
+}
+
+#D1{
+    background-color: rgb(254, 254, 27);
+    color: black;
+    padding:8px;
+    box-shadow: 4px 4px 0px  1px rgb(106, 106, 106);
+}
+
+.info p:hover{
+    transform: scale(1.015);
+    text-shadow: white 0px 0px 2px;
+}
+
+/* About section */
+
+#about{
+    background-color: rgb(254, 254, 27);
+    height: 400px;
+    color: black;
+}
+
+#about h4{
+    margin-left:50px;
+    padding-top: 50px;
+    font-size: 30px;
+    color:black;
+}
+
+#about p{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#D2{
+    background-color: black;
+    color: black;
+    padding:8px;
+    box-shadow: -4px 4px 0px  1px rgb(106, 106, 106);
+    margin-right:950px;
+    margin-top: 50px;
+}
+
+#D3{
+    background-color: black;
+    color: black;
+    padding:8px;
+    box-shadow: 4px 4px 0px  1px rgb(106, 106, 106);
+    margin-left:950px;
+    margin-top: 50px;
+}
+
+/* Skills Section */
+
+#skills{
+    background-color: black;
+    color:rgb(254, 254, 27);
+    height:400px;
+}
+
+#skills h4{
+    margin-left:50px;
+    padding: 45px;
+    font-size: 30px;
+    text-align: right;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    height:200px;
+}
+
+.sub-tittles{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
