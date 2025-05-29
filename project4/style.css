@@ -183,3 +183,8 @@
     justify-content: space-between;
     color: white;
 }
+
+.video1 , .video2 , .video3{
+    display: flexbox;
+    box-shadow: 8px 8px 0px  1px rgb(254, 254, 27);
+}
