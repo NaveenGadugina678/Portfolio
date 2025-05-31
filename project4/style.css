@@ -213,13 +213,27 @@ footer h6{
 
 .instagram, .github, .linkedin{
     margin-right: 20px;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(254, 254, 27);
     font-size: 25px;
+    border: 0.1px solid rgb(254, 254, 27);
+    border-radius: 50%;
 }
 
 .email{
     color: rgb(254, 254, 27);
     font-size: 25px;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid rgb(254, 254, 27);
+    border-radius: 50%;
 }
 
 .copyrights{
